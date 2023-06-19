@@ -1,0 +1,88 @@
+/* reset css */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+.full-reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+    background-color: rgb(17, 192, 174);
+    border-radius: 80px;
+}
+.reset-reset{
+    font-size: 1.6rem;
+}
+.error-text-reset{
+    font-size: 1.2rem;
+    color:red;
+}
+.error-true-reset{
+    color: rgb(17, 211, 133);
+    font-size: 1.2rem;
+}
+.forms-reset{
+    background-color: white;
+    width:400px;
+    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow:15px 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.inputs-reset{
+    width:80%;
+    height:20px;
+    padding:20px;
+    margin:14px;
+    border:2px solid rgb(17, 192, 174);
+    border-radius: 10px;
+}
+.error-text-pas-reset{
+    font-size:1.2rem;
+    color: red;
+}
+.inputs-reset-err{
+    width:80%;
+    height:20px;
+    padding:20px;
+    margin:14px;
+    border:2px solid red;
+    border-radius: 10px;
+}
+
+.btn-reset{
+    width:80%;
+    padding:10px 20px;
+    border: none;
+    background-color:rgb(17, 192, 174) ;
+    color:white;
+    margin-top:5px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+.btn-reset:hover{
+    background-color:rgb(26, 112, 102) ;
+    cursor:pointer;
+
+}
+@media  screen and (max-width:450px) {
+    .forms-reset{
+        background-color: white;
+        width:100%;
+        height:100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow:15px 15px 30px rgba(0, 0, 0, 0.3);
+    }
+    
+}

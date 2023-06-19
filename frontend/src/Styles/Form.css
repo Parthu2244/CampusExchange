@@ -1,0 +1,33 @@
+.item-pst {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .item-pst-fm {
+    display: flex;
+    flex-direction: row; 
+     justify-self: start;
+  }
+  
+  .item-pst-fm input[type="text"],
+  .item-pst-fm input[type="number"],
+  .item-pst-fm textarea {
+    padding: 5px;
+    width: 250px;
+    margin: 5px auto;  
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;  
+  }
+
+  
